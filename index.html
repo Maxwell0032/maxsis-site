@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maxsis AI</title>
+  <meta name="description" content="AI financial intelligence for nonprofits, small businesses, and public-interest organizations." />
+  <style>
+    :root {
+      --navy: #0B2A4A;
+      --teal: #1FB6A6;
+      --light: #F4F6F8;
+      --text: #1F2937;
+      --muted: #5B6777;
+      --white: #FFFFFF;
+      --border: #D9E1E8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: var(--white);
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: 1px;
+    }
+
+    .logo span {
+      color: var(--teal);
+    }
+
+    .hero {
+      padding: 72px 0 48px;
+      background: linear-gradient(to bottom, #ffffff, #f8fbfc);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      line-height: 1.1;
+      color: var(--navy);
+      max-width: 760px;
+      margin: 0 0 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: var(--muted);
+      max-width: 760px;
+      margin: 0 0 32px;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+
+    .button-primary {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .button-secondary {
+      background: var(--white);
+      color: var(--navy);
+      border-color: var(--border);
+    }
+
+    section {
+      padding: 56px 0;
+    }
+
+    h2 {
+      color: var(--navy);
+      font-size: 32px;
+      margin: 0 0 16px;
+    }
+
+    .section-lead {
+      color: var(--muted);
+      max-width: 800px;
+      margin-bottom: 28px;
+      font-size: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--navy);
+      font-size: 20px;
+    }
+
+    .card p {
+      margin-bottom: 0;
+      color: var(--muted);
+    }
+
+    .about {
+      background: var(--light);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .cta {
+      text-align: center;
+      padding: 72px 0;
+    }
+
+    .cta p {
+      max-width: 720px;
+      margin: 0 auto 24px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 0;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 700px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="logo">MAXSIS<span>↗</span></div>
+      <div>AI Financial Intelligence</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>AI financial intelligence for organizations that can’t afford surprises.</h1>
+        <p>
+          Maxsis AI helps nonprofits, small businesses, and public-interest organizations
+          detect liquidity risk, anomalies, and compliance issues before they become crises.
+        </p>
+        <div class="button-row">
+          <a class="button button-primary" href="mailto:Maxwell@MaxwellBookkeeping.com">Contact</a>
+          <a class="button button-secondary" href="https://github.com/Maxwell0032/maxsis-ai" target="_blank">View Prototype</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>The problem</h2>
+        <p class="section-lead">
+          Many small organizations find out they have a financial problem only after the damage is already done:
+          a failed audit, a funding clawback, or a sudden cash crisis.
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Limited visibility</h3>
+            <p>Most organizations rely on delayed reports instead of real-time early warning signals.</p>
+          </div>
+          <div class="card">
+            <h3>Expensive oversight</h3>
+            <p>Institutional-grade financial insight usually requires full-time CFO resources.</p>
+          </div>
+          <div class="card">
+            <h3>High consequence</h3>
+            <p>Small financial issues can quickly become service disruption, job loss, or funding failure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>The solution</h2>
+        <p class="section-lead">
+          Maxsis transforms raw financial data into actionable intelligence leaders can actually use.
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Risk scoring</h3>
+            <p>Estimate liquidity runway and identify emerging financial stress.</p>
+          </div>
+          <div class="card">
+            <h3>Anomaly detection</h3>
+            <p>Flag unusual patterns in spending, burn rate, and revenue behavior.</p>
+          </div>
+          <div class="card">
+            <h3>Clear reporting</h3>
+            <p>Generate plain-language summaries that support better executive and board decisions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Who it’s for</h2>
+        <p class="section-lead">
+          Maxsis is built for organizations that manage real financial responsibility but lack enterprise-level tools.
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Nonprofits</h3>
+            <p>Improve grant oversight, audit readiness, and financial resilience.</p>
+          </div>
+          <div class="card">
+            <h3>Small businesses</h3>
+            <p>Spot cash-flow trouble early and make better operating decisions.</p>
+          </div>
+          <div class="card">
+            <h3>Public-interest organizations</h3>
+            <p>Strengthen transparency and accountability around mission-critical funding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>About the founder</h2>
+        <p class="section-lead">
+          Maxsis is founded by Daniel Maxwell, a financial systems practitioner with deep experience in accounting,
+          risk analysis, and AI-assisted financial oversight.
+        </p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Want to follow the project?</h2>
+        <p>
+          Maxsis is currently in early-stage development, grant applications, and prototype expansion.
+          Contact us to learn more or discuss a future pilot.
+        </p>
+        <div class="button-row" style="justify-content:center;">
+          <a class="button button-primary" href="mailto:Maxwell@MaxwellBookkeeping.com">Email Daniel</a>
+          <a class="button button-secondary" href="https://github.com/Maxwell0032/maxsis-ai" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2026 Maxsis AI. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
